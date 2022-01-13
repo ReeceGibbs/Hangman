@@ -1,0 +1,12 @@
+/* this is the stylesheet for our input component */
+.letter-content {
+    color: #048BA8;
+}
+
+.letter-content.hide {
+    display: none;
+}
+
+.input-column {
+    height: 2rem;
+}

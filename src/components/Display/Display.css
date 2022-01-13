@@ -1,0 +1,31 @@
+/* this is the stylesheet for our display component */
+.restart-btn {
+    margin: 2rem 2rem;
+    background-color: #FFA62B;
+    border: none;
+}
+
+.display-content {
+    text-align: center;
+}
+
+.display-component {
+    width: 18rem;
+    height: 16rem;
+}
+
+.display-row {
+    margin: 10rem 0rem;
+}
+
+.win {
+    color: #048BA8;
+}
+
+.loss {
+    color: #EA2B1F;
+}
+
+.in_progress {
+    color: #6EEB83;
+}

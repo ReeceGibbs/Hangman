@@ -1,0 +1,6 @@
+/* this is the stylesheet for our hangman state component */
+.hangman-image {
+    border-style: dotted;
+    border-width: thin;
+    border-radius: 0.2rem;
+}
