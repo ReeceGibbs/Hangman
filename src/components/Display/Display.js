@@ -146,7 +146,7 @@ function Display() {
                         <Col className='spacer' />
                     </Row>
                     <Row className='display-row'>
-                        <Input wordLetters={displayContent[0]} previousLetters={Array.from(displayContent[1])} />
+                        <Input wordLetters={displayContent[0]} previousLetters={Array.from(displayContent[1])} gameOver={displayContent[3] !== gameStatus[0]} />
                     </Row>
                 </div>
             </Container>

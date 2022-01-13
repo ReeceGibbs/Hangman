@@ -12,7 +12,7 @@ function Input(props) {
             <Row>
                 {props.wordLetters.map((letter, index) =>
                     <Col className='input-column' key={`${letter}_${index}`}>
-                        <h1 className={`letter-content ${props.previousLetters.includes(letter) ? 'show' : 'hide'}`}>{letter}</h1>
+                        <h1 className={`letter-content win ${props.previousLetters.includes(letter) || props.gameOver ? 'show' : 'hide'}`}>{letter}</h1>
                     </Col>
                 )}
             </Row>
@@ -31,7 +31,8 @@ function Input(props) {
 */
 Input.propTypes = {
     wordLetters: PropTypes.array,
-    previousLetters: PropTypes.array
+    previousLetters: PropTypes.array,
+    gameOver: PropTypes.bool
 }
 
 export default Input;
